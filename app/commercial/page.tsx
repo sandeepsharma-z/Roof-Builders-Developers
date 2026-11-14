@@ -1,0 +1,19 @@
+import PropertyArchive, { type ArchiveProperty } from "../PropertyArchive";
+
+const root="/roof-assets-infra-featured-properties/";
+const properties:ArchiveProperty[]=[
+  {name:"LID Plaza",location:"Sohna",area:"Sector 6",price:"₹37 Lakh*",priceLakh:37,image:root+"lid-plaza-sector-6-sohna/featured.jpg",href:"https://roofandassetsinfra.com/properties/lid-plaza-sector-6-sohna/",tag:"Retail Hub"},
+  {name:"Trehan IRIS Broadway",location:"Gurugram",area:"Sector 85",price:"₹36 Lakh*",priceLakh:36,image:root+"trehan-iris-broadway-sector-85-gurugram/featured.jpg",href:"https://roofandassetsinfra.com/properties/trehan-iris-broadway-sector-85-gurugram/",tag:"High Street Retail"},
+  {name:"LID Mall Street",location:"Sohna",area:"Sector 6",price:"₹37 Lakh*",priceLakh:37,image:root+"lid-mall-street/featured.jpg",href:"https://roofandassetsinfra.com/properties/lid-mall-street/",tag:"Neighbourhood Retail"},
+  {name:"The Omaxe State",location:"Delhi",area:"Sector 19B, Dwarka",price:"₹37.5 Lakh*",priceLakh:37.5,image:root+"the-omaxe-state-sector-19b-dwarka-delhi/featured.jpg",href:"https://roofandassetsinfra.com/properties/the-omaxe-state-sector-19b-dwarka-delhi/",tag:"Landmark Destination"},
+  {name:"Ameya Sapphire 57",location:"Gurugram",area:"Sector 57",price:"₹1.17 Cr*",priceLakh:117,image:root+"ameya-sapphire-57-gurgaon/featured.jpg",href:"https://roofandassetsinfra.com/properties/ameya-sapphire-57-gurgaon/",tag:"Premium Commercial"},
+  {name:"ROF Normanton Mall",location:"Sohna",area:"Sector 36",price:"₹21 Lakh*",priceLakh:21,image:root+"rof-normanton-mall/featured.jpeg",href:"https://roofandassetsinfra.com/properties/rof-normanton-mall/",tag:"Retail Shops"},
+  {name:"Devika Sadar",location:"Delhi",area:"Sadar Bazaar",price:"₹24 Lakh*",priceLakh:24,image:root+"devika-sadar/featured.jpg",href:"https://roofandassetsinfra.com/properties/devika-sadar/",tag:"Commercial Landmark"},
+  {name:"Swarnim 35",location:"Sohna",area:"Sector 35",price:"₹30.68 Lakh*",priceLakh:30.68,image:root+"swarnim-sector-35-sohna/featured.jpeg",href:"https://roofandassetsinfra.com/properties/swarnim-sector-35-sohna/",tag:"Premium Shops"},
+  {name:"GLS Elitaire",location:"Gurugram",area:"Sector 81",price:"₹33.27 Lakh*",priceLakh:33.27,image:root+"gls-elitaire/featured.png",href:"https://roofandassetsinfra.com/properties/gls-elitaire/",tag:"Society Shops"},
+  {name:"M3M Prive 73",location:"Gurugram",area:"Sector 73",price:"₹72 Lakh*",priceLakh:72,image:root+"m3m-prive-73-sector-73/featured.png",href:"https://roofandassetsinfra.com/properties/m3m-prive-73-sector-73/",tag:"High Street Retail"},
+  {name:"M3M Capital Walk 113",location:"Gurugram",area:"Sector 113",price:"₹75 Lakh*",priceLakh:75,image:root+"m3m-capital-walk-sector-113/featured.jpg",href:"https://roofandassetsinfra.com/properties/m3m-capital-walk-sector-113/",tag:"Mixed Use"},
+  {name:"M3M Route 65",location:"Gurugram",area:"Sector 65",price:"₹50 Lakh*",priceLakh:50,image:root+"m3m-route-65/featured.jpg",href:"https://roofandassetsinfra.com/properties/m3m-route-65/",tag:"Retail Destination"},
+];
+
+export default function CommercialPage(){return <PropertyArchive eyebrow="Commercial Collection · Delhi NCR" title="Spaces Built for" scriptTitle="Business & Growth." heroCopy="Explore retail, office and mixed-use opportunities selected for visibility, connectivity and lasting commercial relevance." heroImage={root+"m3m-capital-walk-sector-113/featured.jpg"} sectionEyebrow="Commercial Opportunities" sectionTitle="Where Ambition Finds" sectionScript="the Right Address." sectionCopy="Compare commercial spaces across business districts, growth corridors and high-footfall destinations." resultLabel="commercial opportunities" ctaEyebrow="Plan the Next Move" ctaTitle="Give Your Ambition" ctaScript="Room to Grow." ctaCopy="Share your business type, preferred location and investment range. We’ll help identify commercial spaces that fit the opportunity." properties={properties}/>}

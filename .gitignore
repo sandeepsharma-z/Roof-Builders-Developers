@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+*.log
+.env*
+!.env.example
+
+# Local QA and browser profiles
+.tmp*
+
+# Local backups and build caches
+/_backups
+*.tsbuildinfo
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db

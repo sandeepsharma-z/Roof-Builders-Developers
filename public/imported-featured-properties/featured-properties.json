@@ -1,0 +1,30 @@
+[
+  {
+    "name": "LID Mall Street",
+    "location": "Sohna",
+    "price": "Rs. 37 Lakh*",
+    "image": "lid-mall-street.jpg",
+    "source": "https://roofandassetsinfra.com/properties/lid-mall-street/"
+  },
+  {
+    "name": "The Omaxe State, Sector 19B, Dwarka, Delhi",
+    "location": "Delhi",
+    "price": "Rs. 37.5 Lakh*",
+    "image": "the-omaxe-state.jpg",
+    "source": "https://roofandassetsinfra.com/properties/the-omaxe-state-sector-19b-dwarka-delhi/"
+  },
+  {
+    "name": "Ameya Sapphire 57 Gurgaon",
+    "location": "Gurgaon",
+    "price": "Rs. 1.17 Cr.*",
+    "image": "ameya-sapphire-57.jpg",
+    "source": "https://roofandassetsinfra.com/properties/ameya-sapphire-57-gurgaon/"
+  },
+  {
+    "name": "Central Avenue Sector-33, Gurugram",
+    "location": "Gurgaon",
+    "price": "Rs. 4.5 Cr.*",
+    "image": "central-avenue-sector-33.webp",
+    "source": "https://roofandassetsinfra.com/properties/central-avenue-sector-33-gurugram/"
+  }
+]
